@@ -23,6 +23,17 @@ spaceship of course, shielded from the cold emptiness of space itself.
 Confused, he wonders through the ship knowing absolutley nothing. 
 From the detection of his motion, a video begins to play on a screen. 
 It is from a stranger telling him that he is the last surviving human 
-from Earth and is currebtly heading to Mars'''
+from Earth and is currebtly heading to Mars.'''
 
 print(starting_area)
+
+# Ask the player for their first decision
+decision = input("Do you wish to take the path? (yes or no): ").lower()
+
+# Respond based on the player's decision
+if decision == "yes":
+    print(f"Brave choice, {player_name}! You step onto the path and venture forward.")
+elif decision == "no":
+    print(player_name + ", you decide to wait. Perhaps courage will find you later.") # Concatenation example
+else:
+    print("Confused, you stand still, unsure of what to do.")
