@@ -17,3 +17,12 @@ player_name = input('What is your name, oh great Adventurer? ')
 # Make the welcome message neater utlizing an f string.
 print(f'Welcome {player_name}! Your jouney commences now!')
 
+# Describe the Starting Area.
+starting_area = '''In outer space awoke the adventurer. He is on a 
+spaceship of course, shielded from the cold emptiness of space itself. 
+Confused, he wonders through the ship knowing absolutley nothing. 
+From the detection of his motion, a video begins to play on a screen. 
+It is from a stranger telling him that he is the last surviving human 
+from Earth and is currebtly heading to Mars'''
+
+print(starting_area)
